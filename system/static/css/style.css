@@ -1,0 +1,78 @@
+
+/*
+Template Name: Onedash Admin
+Author: codervent
+Email: codervent@gmail.com
+File: style.css
+*/
+
+
+/* 
+- General
+- Header
+- Sidebar
+- Page Content
+- Utilities
+- Widgets
+- Chips
+- Email
+- chat box
+- Authentication
+- swicther
+- Responsive
+
+ */
+
+
+/* General */
+
+body {
+    font-size: 14px;
+	color: #4c5258;
+	letter-spacing: .5px;
+    font-family: Roboto, sans-serif;
+    background-color: #f7f8fa;
+     overflow-x: hidden;
+}
+
+ /* .wrapper{
+    width: auto;
+	position: relative
+}  */
+
+a {
+    text-decoration: none;
+}
+
+::placeholder {
+    opacity: 0.4 !important;
+}
+
+/* Header */
+
+.top-header .navbar{
+    position: fixed;
+    top: 0;
+    /* left: 260px; */
+   
+    background-color: #f7f8fa;
+    /* border-bottom: 1px solid #e2e3e4; */
+    background-clip: padding-box;
+    height: 60px;
+    z-index: 10;
+    padding: 0 1.5rem;
+    transition: all .2s;
+}
+
+
+.top-header .navbar .top-navbar-right .nav-link {
+
+    color: #293445;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: .8rem;
+    /* padding-left: .8rem; */
+
+}
+
+
